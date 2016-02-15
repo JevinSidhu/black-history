@@ -1,0 +1,163 @@
+body {
+    font-family: "Lato";
+}
+
+#landing {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover {
+    color:#000;
+}
+
+.icon {
+    margin-top:80px;
+    margin-bottom:25px;
+    font-weight:900;
+}
+
+.icon-article {
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:10px;
+    font-weight:900;
+}
+
+.title {
+    font-size:14px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.subtitle {
+    font-size:14px;
+    color:#999;
+    font-weight:400;
+    margin-bottom:75px;
+}
+
+.collection-date {
+    margin-top:30px;
+    margin-bottom:-5px;
+    font-weight:300;
+    color:#999;
+    text-align:center;
+}
+
+.collection-title {
+    text-align:center;
+    font-weight:700;
+    font-size:23px;
+}
+
+.collection-subtitle {
+    text-align:center;
+    font-size:14px;
+    font-weight:300;
+    color:#000;
+    margin-bottom:100px;
+}
+
+.land-image {
+    margin-top:2em;
+}
+
+.body-writing {
+    margin-top:8em;
+    font-family: "PT Serif";
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:18px;
+    color:#000;
+    line-height:1.7;
+}
+
+.text-header {
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.text {
+    margin-bottom:25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.next {
+    font-family: "Lato";
+    font-weight:400;
+    margin-top:125px;
+    margin-bottom:125px;
+    font-size:15px;
+    text-align:center;
+}
+
+.links {
+    margin-top:125px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.fa-twitter {
+    color:#999;
+}
+
+.fa-twitter:hover {
+    color:#9b9b9b;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Media Queries */
+@media screen and (max-width:715px) {
+    .body-writing {
+        max-width:400px;
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .body-writing {
+        max-width:550px;
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .body-writing {
+        max-width:400px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .body-writing {
+        max-width:375px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .body-writing {
+        max-width:385px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .body-writing {
+        max-width:345px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .body-writing {
+        max-width:290px;
+        font-size:17px;
+    }
+}
